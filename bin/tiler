@@ -1,0 +1,6 @@
+#!/usr/bin/env macruby
+
+bin = File.expand_path(File.dirname(__FILE__))
+require "#{bin}/../lib/tiler"
+
+Tiler::Runner.new.start
